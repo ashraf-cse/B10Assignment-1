@@ -94,7 +94,7 @@ header .hero-container .contact-btn {
   background: rgba(13, 19, 33, 0.02);
   /* height: 1393px; */
 }
-.web-container>p {
+.web-container > p {
   text-align: center;
 }
 .dev-container {
@@ -103,27 +103,31 @@ header .hero-container .contact-btn {
 .feature {
   display: flex;
   justify-content: space-between;
-  gap: 2px;
-  display: flex;
   align-items: center;
+  gap: 24px;
   padding: 48px;
   border-radius: 16px;
-  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 .feature-text {
   width: 48%;
-  /* text-align: start; */
+  text-align: left;
 }
 .feature-text * {
   margin: 10px 0;
 }
 .feature-img {
   width: 48%;
+  text-align: center;
 }
 .feature-img img {
-  width: 80%;
+  width: 100%;
   height: auto;
   object-fit: cover;
-  /* display: block; */
+  display: block;
   margin: 0 auto;
 }
