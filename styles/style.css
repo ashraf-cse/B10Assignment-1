@@ -14,7 +14,7 @@ body {
   font-weight: 800;
   text-align: center;
 }
-container {
+.container {
   max-width: 84%;
   margin: 70px auto;
 }
@@ -84,4 +84,46 @@ header .hero-container .contact-btn {
   /* text-align: center; */
   border: none;
   cursor: pointer;
+}
+/* main section start here */
+/* web dev related work */
+
+.web-container {
+  padding: 80px 98px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  /* height: 1393px; */
+}
+.web-container>p {
+  text-align: center;
+}
+.dev-container {
+  padding: 48px;
+}
+.feature {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+  display: flex;
+  align-items: center;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.feature-text {
+  width: 48%;
+  /* text-align: start; */
+}
+.feature-text * {
+  margin: 10px 0;
+}
+.feature-img {
+  width: 48%;
+}
+.feature-img img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  /* display: block; */
+  margin: 0 auto;
 }
