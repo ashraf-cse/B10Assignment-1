@@ -131,3 +131,21 @@ header .hero-container .contact-btn {
   display: block;
   margin: 0 auto;
 }
+/* Inspiration Section related css start here */
+.inspiration * {
+  margin: 20px 0;
+  text-align: center;
+}
+.insp-description {
+  /* text-align: center; */
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+iframe {
+  width: 1200px;
+  height: 550px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
