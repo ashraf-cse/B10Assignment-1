@@ -84,6 +84,7 @@ header .hero-container .contact-btn {
   /* text-align: center; */
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 /* main section start here */
 /* web dev related work */
@@ -267,7 +268,7 @@ button {
 /* footer related style */
 footer {
   border-radius: 16px;
-background: rgba(13, 19, 33, 0.03);
+  background: rgba(13, 19, 33, 0.03);
   padding: 20px 0;
 }
 
